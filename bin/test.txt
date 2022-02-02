@@ -1,0 +1,27 @@
+load res/sample1.jpg
+blur
+save res/sample1_blur.jpg
+load res/sample1.jpg
+sharpen
+save res/sample1_sharpen.jpg
+load res/sample1.jpg
+greyscale
+save res/sample1_greyscale.jpg
+load res/sample1.jpg
+sepia
+save res/sample1_sepiatone.jpg
+load res/sample1.jpg
+colordither 8
+save res/sample1_colordither.jpg
+load res/sample1.jpg
+greyscaledither 8
+save res/sample1_greyscaledither.jpg
+load res/sample1.jpg
+mosaic 100
+save res/sample1_mosaic.jpg
+load res/sample1.jpg
+pixelate 100
+save res/sample1_pixelate.jpg
+load res/sample1.jpg
+pattern
+save res/sample1_pattern.txt
